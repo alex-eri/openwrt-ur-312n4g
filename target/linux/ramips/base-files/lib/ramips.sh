@@ -265,6 +265,9 @@ ramips_board_detect() {
 	*"UR-326N4G Wireless N router")
 		name="ur-326n4g"
 		;;
+        *"UR-312N4G Wireless N router")
+                name="ur-312n4g"
+                ;;
 	*"UR-336UN Wireless N router")
 		name="ur-336un"
 		;;

@@ -513,6 +513,8 @@ Image/Build/Profile/UR-326N4G=$(call BuildFirmware/Default4M/$(1),$(1),ur-326n4g
 
 Image/Build/Profile/UR-336UN=$(call BuildFirmware/Default8M/$(1),$(1),ur-336un,UR-336UN)
 
+Image/Build/Profile/UR-312N4G=$(call BuildFirmware/Default4M/$(1),$(1),ur-312n4g,UR-312N4G)
+
 Image/Build/Profile/WR6202=$(call BuildFirmware/Default8M/$(1),$(1),wr6202,WR6202)
 
 Image/Build/Profile/X5=$(call BuildFirmware/Poray8M/$(1),$(1),x5,X5)
@@ -575,6 +577,7 @@ define Image/Build/Profile/Default
 	$(call Image/Build/Profile/RT-N13U,$(1))
 	$(call Image/Build/Profile/SL-R7205,$(1))
 	$(call Image/Build/Profile/UR-326N4G,$(1))
+        $(call Image/Build/Profile/UR-312N4G,$(1))
 	$(call Image/Build/Profile/V22RW-2X2,$(1))
 	$(call Image/Build/Profile/W150M,$(1))
 	$(call Image/Build/Profile/W306R_V20,$(1))

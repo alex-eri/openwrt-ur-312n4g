@@ -27,4 +27,20 @@ endef
 define Profile/UR-326N4G/Description
 	Default package set compatible with URVEL router board.
 endef
+
+
 $(eval $(call Profile,UR-326N4G))
+
+
+define Profile/UR-312N4G
+        NAME:=UPVEL UR-312N4G
+        PACKAGES:=\
+                kmod-usb-core kmod-usb-rt305x-dwc_otg
+endef
+
+define Profile/UR-312N4G/Description
+        Default package set compatible with URVEL router board.
+endef
+
+$(eval $(call Profile,UR-312N4G))
+
